@@ -1,3 +1,4 @@
+#include <algorithm>
 #include "BookManager.h"
 
 BookManager::BookManager() = default;

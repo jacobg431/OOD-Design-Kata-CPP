@@ -1,9 +1,9 @@
 #include <iostream>
 #include <string>
 #include <sstream>
-#include "src/Book/Book.h"
-#include "src/Member/Member.h"
-#include "src/LibraryManager/LibraryManager.h"
+#include "Book/Book.h"
+#include "Member/Member.h"
+#include "LibraryManager/LibraryManager.h"
 
 int main()
 {

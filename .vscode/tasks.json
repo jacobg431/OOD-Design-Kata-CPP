@@ -1,0 +1,35 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "Build C++ Project",
+            "type": "shell",
+            "command": "g++",
+            "args": [
+                "-std=gnu++17",
+                "-Wall",
+                "-Wextra",
+                "-Wpedantic",
+                "-g",
+                "src/main.cpp",
+                "src/Book/Book.cpp",
+                "src/BookManager/BookManager.cpp",
+                "src/BorrowManager/BorrowManager.cpp",
+                "src/LibraryManager/LibraryManager.cpp",
+                "src/Member/Member.cpp",
+                "src/MemberManager/MemberManager.cpp",
+                "-I",
+                "src",
+                "-o",
+                "out/LibraryApp.exe"
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "problemMatcher": [
+                "$gcc"
+            ]
+        }
+    ]
+}

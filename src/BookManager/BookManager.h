@@ -9,7 +9,7 @@ private:
 public:
     BookManager();
 
-    void AddBook(const Book& book) { Books.push_back(book); }
+    void AddBook(const Book& book);
     void RemoveBook(const Book& book);
 
     void UpdateBook(const std::string& originalTitle, const Book& updatedBook);
