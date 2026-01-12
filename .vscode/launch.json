@@ -1,0 +1,32 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "Build and Debug LibraryApp",
+            "type": "cppdbg",
+            "request": "launch",
+
+            "program": "${workspaceFolder}/out/LibraryApp.exe",
+            "args": [],
+            "stopAtEntry": false,
+
+            "cwd": "${workspaceFolder}",
+            "environment": [],
+
+            "externalConsole": false,
+
+            "MIMode": "gdb",
+            "miDebuggerPath": "gdb",
+
+            "setupCommands": [
+                {
+                    "description": "Enable pretty-printing for gdb",
+                    "text": "-enable-pretty-printing",
+                    "ignoreFailures": true
+                }
+            ],
+
+            "preLaunchTask": "Build C++ Project"
+        }
+    ]
+}
