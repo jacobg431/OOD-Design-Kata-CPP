@@ -2,8 +2,8 @@
 #include <vector>
 #include <unordered_map>
 #include <algorithm>
-#include "Book.hpp"
-#include "Member.hpp"
+#include "../Book/Book.h"
+#include "../Member/Member.hpp"
 
 class LibraryManager {
 public:
